@@ -5,11 +5,26 @@
         <meta name="viewport" content="width=device-width,
         initial-scale=1.0">
         <title> Javascript </title>
+        <style>
+            .container{
+                border: 2px solid red;
+                margin: 3px 0;
+                background: cyan;
+
+            }
+            .bg-primary{
+                background-color: blueviolet;
+            }
+            .text-success{
+                color: brown;
+            }
+        </style>
     </head>
 <body>
     <h1> Welcome</h1>
     <div id= "firstconainer" class="container">
-        <button id="click"> Click me</button>
+        <button id="click" onclick="clicked()"> Click me</button>
+        <p>This is the best paragraph of the world</p>
     </div>
     <div class="container">
         <p>This is container</p>
