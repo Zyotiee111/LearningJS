@@ -170,9 +170,24 @@ tn[0].replaceChild(createdElement2, createdElement);
 // summ = (a,b)=>{
 //     return a+b
 // }
-logkaro = ()=>{
-    console.log("i m log")
-    document.querySelectorAll('.container')[1].innerHTML = " set interval fired"
-}
-clr = setTimeout(logkaro , 2000)
-clr = setInterval(logkaro , 2000);
+// logkaro = ()=>{
+//     console.log("i m log")
+//     document.querySelectorAll('.container')[1].innerHTML = " set interval fired"
+// }
+// clr = setTimeout(logkaro , 2000)
+// clr = setInterval(logkaro , 2000);
+
+//json 
+// obj = {name: "harry", length :1,a: {this: "thatz"}}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso)
+// console.log(jso)
+
+
+
+
+
+
+
+
+
